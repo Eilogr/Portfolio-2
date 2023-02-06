@@ -2,11 +2,54 @@ body {
     background: linear-gradient(#ff934d, #fc686f) fixed;
 }
 .container {
-    max-width: 1200px;
-    margin: 0px auto;
+    width: 100%;
     padding: 0px 15px;
 }
-
 h1 {
     font-size: calc(24px + 16 * (100vw / 1280));
+}
+
+/*HEADER*/
+.header__row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0.93% 2.08% 0 2.08%;
+}
+.header__logo {
+    width: 4.42%;
+}
+.header__logo img {
+    width: 100%;
+}
+.header__menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 40%;
+}
+.header__menu div {
+    color: #11334b;
+    font-family: "MV Boli";
+    font-size: 61px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/*1 PAGE*/
+.main__row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.main__banner img {
+    width: 577px;
+    height: 567px;
+}
+.main__title {
+    color: #11334b;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 176px;
+    font-weight: 400;
+    text-align: left;
 }
